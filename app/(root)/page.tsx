@@ -9,7 +9,7 @@ import React from "react";
 
 const Home =async () => {
   const clerkUser = await currentUser();
-  if(!clerkUser) redirect('/signn-in')
+  if(!clerkUser) redirect('/sign-in')
 
   const documents =[]
 	return (
